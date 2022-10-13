@@ -20,11 +20,11 @@ function getUsers(){
         let HTML = "<h2> Users </h2>"
         data.forEach((user)=>{
             HTML += `
-            <ul>
+            <ol>
                 <li>ID: ${user.id}</li>
                 <li>Name: ${user.name}</li>
                 <li>Email: ${user.email}</li>
-            </ul>
+            </ol>
             `
         })
         document.getElementById("output").innerHTML = HTML
@@ -53,9 +53,9 @@ function getPosts(){
 
 // Posting
 
-document.getElementById("add-post").addEventListener("submit", addPost)
+document.getElementById("add-post").addEventListener("submit", addPost);
 function addPost(e){
-    e.preventDefault
+    e.preventDefault()
     let title = document.getElementById("title").value;
     let body = document.getElementById("body").value;
 

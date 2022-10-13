@@ -8,23 +8,34 @@
     <title>Fetch API Sandbox</title>
   </head>
   <body>
-    <button id="get-text">Get Text</button>
-    <button id="get-users">Get JSON</button>
-    <button id="get-posts">Get API DATA</button>
-    <hr>
-    <div id="output"></div>
-
-    <form id="add-post">
-      <div>
-        <input type="text" id="title" placeholder="Title">
+    <!-- wrapper -->
+    <div class="wrapper">
+      <!-- container -->
+      <div class="container">
+        <h1>Fetch API Sandbox</h1>
+        <!-- buttons -->
+        <div class="buttons">
+          <button id="get-text">Get Text</button>
+          <button id="get-users">Get JSON</button>
+          <button id="get-posts">Get API DATA</button>
+        </div>
+        <!-- horizontal live -->
+        
+        <!-- output -->
+        <div id="output"></div>
+        <!-- form -->
+        <form id="add-post">
+          <div>
+            <input type="text" id="title" placeholder="Title">
+          </div>
+          <div>
+            <textarea id="body" placeholder="Body"></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit">
+        </form>
       </div>
-      <div>
-        <textarea id="body" placeholder="Body"></textarea>
-      </div>
-      <input type="submit" value="Submit">
-    </form>
-
-    
+      
+    </div>  
     <script src="app.js"></script>
   </body>
 </html>

@@ -45,7 +45,7 @@ button{
 
 #get-posts{
     color: black;
-    background-color: yellow;
+    background-color: orange;
 }
 
 #output{
@@ -82,4 +82,8 @@ form{
     padding: 10px 15px;
     background-color: grey;
     cursor: pointer;
+}
+
+li{
+    list-style: none;
 }
